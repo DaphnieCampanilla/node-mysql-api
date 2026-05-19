@@ -8,6 +8,7 @@
   },
   "secret": "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
   "emailFrom": "onboarding@resend.dev",
+  "resendApiKey": "re_W4YER3cQ_7rL194F7eYXv3UjJGY52CwUV",
   "smtpOptions": {
       "host": "smtp.ethereal.email",
       "port": 587,
