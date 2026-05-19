@@ -95,11 +95,14 @@ async function register(params: any, origin: any) {
     // hash password
     account.passwordHash = await hash(params.password);
 
+    // auto-verify account since email verification is bypassed
+    account.verified = Date.now();
+
     // save account
     await account.save();
 
     // send email
-    await sendVerificationEmail(account, origin);
+    // await sendVerificationEmail(account, origin);
 }
 
 async function verifyEmail({ token }: any) {
