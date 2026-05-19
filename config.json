@@ -7,7 +7,7 @@
       "database": "node_mysql_api"
   },
   "secret": "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
-  "emailFrom": "info@node-mysql-api.com",
+  "emailFrom": "onboarding@resend.dev",
   "smtpOptions": {
       "host": "smtp.ethereal.email",
       "port": 587,
